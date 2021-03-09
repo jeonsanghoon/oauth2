@@ -36,7 +36,3 @@ tasks.withType<KotlinCompile> {
 tasks.withType<Test> {
 	useJUnitPlatform()
 }
-// task 추가
-tasks.getByName<BootRun>("bootRun") {
-	main = "com.mrc.oauth2.Oauth2Application" // MainClass 경로
-}
